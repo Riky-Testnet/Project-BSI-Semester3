@@ -1,0 +1,45 @@
+.banner {
+    background: url("WP\ STUDIO.jpg")
+    no-repeat center center;
+    background-size: cover ;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: white;
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    color: white;
+    background-color: purple;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+
+}
+
+.tim img {
+    width: 250px;
+    border: 10px solid #cccc;
+}
+
+.kontak {
+    background: url(online.jpg);
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+}
+
+.footer{
+    background: gray;
+    background-size: cover;
+    color: white;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
