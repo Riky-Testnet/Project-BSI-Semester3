@@ -10,7 +10,12 @@ $jam = $_POST['jam'];
 $submit = $_POST['submit'];
 
 
-$query = "INSERT INTO booking VALUES('$nama','$email','$no','$tanggal','$paket','$jam','$submit')";
+$query = "INSERT INTO booking VALUES('$nama','$email','$no','$tanggal','$paket','$jam','$submit','')";
 
-mysqli_query($koneksi, $query)
+mysqli_query($koneksi, $query);
+
+if (isset($_POST["submit"])){
+    header('location: hasilBooking.php');
+    exit;
+}
 ?>

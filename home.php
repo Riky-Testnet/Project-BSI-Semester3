@@ -261,27 +261,29 @@ date_default_timezone_set("Asia/bangkok");
           <div class="col-md-4 text-center tim">
             <img src="syahid.jpeg" class="rounded-circle mb-3" />
             <h4>Syahid Muhammad Ummar</h4>
-            <p>Backend Developer And Founder Know! Ps</p>
+            <p>Founder Know! Photo Studio Dan Ba</p>
+          </div>
+          
+          <div class="col-md-4 text-center tim">
+            <img src="Nadita.jpeg" class="rounded-circle mb-3" />
+            <h4>Nadita Sekar Ranti Valerina</h4>
+            <p>UI/UX Designer And CEO Know! Ps</p>
           </div>
 
           <div class="col-md-4 text-center tim">
             <img src="Riky.jpeg" class="rounded-circle mb-3" />
             <h4>Riky Mochammad Arif</h4>
-            <p>FrontEnd Developer And CEO Know! Ps</p>
+            <p>FrontEnd Developer And Editor Know! Ps</p>
           </div>
 
-          <div class="col-md-4 text-center tim">
-            <img src="Nadita.jpeg" class="rounded-circle mb-3" />
-            <h4>Nadita Sekar Ranti Valerina</h4>
-            <p>UI/UX Designer And Editor Know! Ps</p>
-          </div>
-
+          
           <div class="col-md-7 text-center tim">
             <img src="Fida.jpeg" class="rounded-circle mb-3" />
             <h4>Fida Nirmala</h4>
-            <p>UI/UX Designer And Marketing Know! Ps</p>
+            <p>UI/UX Designer And Administrasi Know! Ps</p>
           </div>
-
+          
+          
           <div class="col-md-3 text-center tim">
             <img src="Fadly.jpg" class="rounded-circle mb-3" />
             <h4>Fadly</h4>
@@ -340,6 +342,8 @@ date_default_timezone_set("Asia/bangkok");
                 <button class="btn btn-primary" type="submit" name="submit" value= <?php echo date("h:i:sa"); ?> >Submit form</button>
               </div>
             </form>
+            <br>
+            <a href="hasilBooking.php" class="btn btn-primary" > Jadwal Booking </a>
             <div></div>
 
           </div>
